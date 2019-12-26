@@ -11,7 +11,7 @@ def nyc_pigeon_organizer(data)
           pigeon_list[pigeon_name][characteristic] = []
         end
 
-        pigeon_list[pigeon_name][characteristic] = value.to_s
+        pigeon_list[pigeon_name][characteristic] << value.to_s
       end
     end
   end
